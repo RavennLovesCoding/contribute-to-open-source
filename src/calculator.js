@@ -1,6 +1,4 @@
 exports._check = (x, y) => {
-  // DRY up the codebase with this function
-  // Handles duplicate error checking for the functions below
   if (typeof x !== 'number') {
     throw new TypeError(`${x} is not a number`);
   }
